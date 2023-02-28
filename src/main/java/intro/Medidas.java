@@ -12,11 +12,12 @@ public class Medidas {
 
     // 3.2 - Métodos e Funções
     public static void main(String[] args){
-        System.out.println("Calculo de Areas");
-
+        calcularAreaModoCurto();
+        calcularAreaModoExtenso();
     }
 
-    public void calcularAreaModoExtenso{
+    public static void calcularAreaModoExtenso(){
+        System.out.println("Calculo de Areas Modo Extenso");
 
         // Calculo de area - Exemplo: o tamanho do tapete ou do piso
         int largura;
@@ -33,7 +34,8 @@ public class Medidas {
     }
 
 
-    public void calcularAreaModoCompacto(){
+    public static void calcularAreaModoCurto(){
+        System.out.println("Calculo de Areas Modo curto");
 
         //Calculo de area Reduzido
         int largura = 4;
